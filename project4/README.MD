@@ -1,3 +1,5 @@
+Video Explanation here: https://www.youtube.com/channel/UCV3clL5BY2dAPz2iEecPciQ
+
 The Data Can be downloaded here:
 https://huggingface.co/datasets/MongoDB/airbnb_embeddings
 
