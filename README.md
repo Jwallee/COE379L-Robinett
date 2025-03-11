@@ -1,14 +1,35 @@
-Multiple projects for COE 379L: Software Design For Responsible Intelligent Systems
-Link: COE379L
-Project 1:
-Exploratory Data Analysis and Data Processing
-Linear Regression on Processed Data
-Project 2:
-Preprocessing data and more learning techniques
-K-Nearest Neighbor Classifier, Random Forest Classifier, Decision Trees, Naive Bayes and Logistic Regression
-Project 3: (THIS ONE IS RELEVANT)
-Neural Networks for Image Classification
-Develop a simple inference server to serve your trained model over HTTP. Hosted in a docker container.
-Has 2 Endpoints, one to get info on the server and one to send it binary image information and returns a json classification
-Project 4:
-Project Proposed to classify AirBnb Image listing to an accurate price, to see how to price your own listings. Can give it images to return an accurate price prediction.
+# COE 379L: Software Design For Responsible Intelligent Systems
+
+This repository contains multiple projects developed for the **COE 379L** course at The University of Texas at Austin.  
+The projects focus on data processing, machine learning, and neural network-based image classification, culminating in the deployment of a model using an inference server. Each project folder containes individual write-ups if more detial is needed.
+
+## Projects
+
+### **Project 1: Exploratory Data Analysis and Data Processing**
+- Performed data exploration and preprocessing.
+- Applied Linear Regression on processed data to identify trends and relationships.
+
+### **Project 2: Machine Learning Classification Techniques**
+- Implemented multiple **classification algorithms**, including:
+  - K-Nearest Neighbor (KNN)
+  - Random Forest Classifier
+  - Decision Trees
+  - Naive Bayes
+  - Logistic Regression
+- Evaluated model performance across datasets.
+
+### **Project 3: Neural Networks for Image Classification**
+- Developed a neural network model for image classification.
+- Implemented a RESTful inference server to serve the trained model over HTTP.
+- Dockerized the server, allowing deployment in a containerized environment.
+- Exposed **two API endpoints**:
+  1. **`/info`** - Returns metadata about the model and server status.
+  2. **`/classify`** - Accepts binary image data and returns a **JSON classification result**.
+
+### **Project 4: Airbnb Price Prediction Using Images**
+- Designed a machine learning model to predict Airbnb listing prices based on image inputs.
+- Utilized computer vision techniques to analyze property images and estimate an accurate price range.
+- Explored the feasibility of using image-based valuation for real estate pricing models.
+
+## Author
+James Robinett (Jwallee)
